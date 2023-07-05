@@ -4,7 +4,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  list-style-type: none;
   flex-shrink: 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -43,8 +42,9 @@ span {
   text-align: center;
   font-size: 1.125rem;
   gap: 1.5rem;
+  margin-top: 1.5rem;
 }
-li {
+.page-data div {
   display: flex;
   flex-direction: column;
   width: 6.25rem;
@@ -52,6 +52,11 @@ li {
   border-radius: 0.75rem;
   background-color: #e5e5e5;
   justify-content: center;
+}
+h2 {
+  color: #4E5150;
+  font-size: 1.125rem;
+  margin: 0;
 }
 section {
   display: grid;
