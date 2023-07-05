@@ -58,6 +58,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 2.25rem;
+  margin-top: 4rem;
 }
 section img {
   border-radius: 12px;
